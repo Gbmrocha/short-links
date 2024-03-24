@@ -2,6 +2,9 @@ POST http://localhost:3333/links
 Content-Type: application/json
 
 {
-    "code": "youtube",
-    "url": "https://www.youtube.com/"
+    "code": "teste",
+    "url": "https://www.google.com/"
 }
+
+###
+GET http://localhost:3333/links
